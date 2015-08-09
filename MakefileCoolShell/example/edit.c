@@ -6,8 +6,20 @@
  ************************************************************************/
 
 #include<stdio.h>
+#include"utils.h"
+#include"files.h"
+#include"search.h"
+#include"insert.h"
+#include"display.h"
+#include"cmd.h"
 
 int main()
 {
     printf("###INFO: start main\r\n");
+	cmd();
+	display();
+	insert();
+	search();
+	files();
+	utils();
 }
