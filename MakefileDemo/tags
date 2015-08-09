@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARRAY_H_	include/array.h	9;"	d
+CC	maker/Makefile	/^CC = gcc$/;"	m
+CC	src/util/maker/Makefile	/^CC = gcc$/;"	m
+CFLAGS	maker/Makefile	/^CFLAGS = -g -Wall$/;"	m
+CFLAGS	src/util/maker/Makefile	/^CFLAGS = -g -Wall$/;"	m
+INCLUDE	maker/Makefile	/^INCLUDE = .$/;"	m
+INCLUDE	src/util/maker/Makefile	/^INCLUDE = .$/;"	m
+OBJS	maker/Makefile	/^OBJS:=$(SRC:.c=.o)$/;"	m
+OBJS	src/util/maker/Makefile	/^OBJS:=$(SRC:.c=.o)$/;"	m
+OBJSINNER	maker/Makefile	/^OBJSINNER:=$(wildcard $(OBJSINNER)*.o)$/;"	m
+OBJSINNER	maker/Makefile	/^OBJSINNER:=..\/src\/util\/maker\/$/;"	m
+SRC	maker/Makefile	/^SRC:=$(notdir $(SRC))$/;"	m
+SRC	maker/Makefile	/^SRC:=$(wildcard $(SRCPATH)*.c) $/;"	m
+SRC	src/util/maker/Makefile	/^SRC:=$(notdir $(SRC))$/;"	m
+SRC	src/util/maker/Makefile	/^SRC:=$(wildcard $(SRCPATH)*.c)$/;"	m
+SRCINNER	maker/Makefile	/^SRCINNER:=$/;"	m
+SRCPATH	maker/Makefile	/^SRCPATH:=..\/src\/$/;"	m
+SRCPATH	src/util/maker/Makefile	/^SRCPATH:=..\/$/;"	m
+STACK_H_	include/stack.h	9;"	d
+_FILES_H	include/file.h	3;"	d
+_INSERT_H	include/insert.h	2;"	d
+create_array	src/util/array.c	/^void create_array(){$/;"	f
+create_stack	src/util/stack.c	/^void create_stack(){$/;"	f
+insert	src/insert.c	/^void insert(){$/;"	f
+main	src/main.c	/^int main(){$/;"	f
+read	src/file.c	/^void read(){$/;"	f
