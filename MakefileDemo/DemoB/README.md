@@ -2,7 +2,7 @@
 ##功能
 	1.makefile主要内容都放在顶层目录下的Makefile.env中，子层Makefile包含这个
 Makefile.env，只要增加一些变量就可以编译，特别方便添加新的功能模块
-    2.自动解析头文件依赖
+	2.自动解析头文件依赖
 ##目录结构
 	1. 源文件目录src，模块xxx放在src/xxx下，主程序在src/main下面
 	
