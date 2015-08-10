@@ -7,7 +7,7 @@ Makefile.env，只要增加一些变量就可以编译，特别方便添加新�
 ##目录结构
 	1. 源文件目录src，模块xxx放在src/xxx下，主程序在src/main下面
 	
-	2.公共头文件放在include目录下，模块xxx的头文件放在include/xxx目录下
+	2.公共头文件放在inc目录下，模块xxx的头文件放在inc/xxx目录下
 	
 	3.模块输出的链接库放在lib目录下
 	
