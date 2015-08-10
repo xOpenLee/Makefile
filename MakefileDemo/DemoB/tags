@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CFLAGS	src/first/Makefile	/^CFLAGS= -I$(INCPATH)$/;"	m
+CFLAGS	src/main/Makefile	/^CFLAGS= -I$(TOPDIR)\/inc$/;"	m
+CFLAGS	src/second/Makefile	/^CFLAGS= -I$(INCPATH)$/;"	m
+EXEPATH	src/main/Makefile	/^EXEPATH=$(TOPDIR)\/bin$/;"	m
+INCPATH	src/first/Makefile	/^INCPATH=$(TOPDIR)\/inc$/;"	m
+INCPATH	src/second/Makefile	/^INCPATH=$(TOPDIR)\/inc$/;"	m
+LDFLAGS	src/main/Makefile	/^LDFLAGS= -lfirst -lsecond$/;"	m
+LIB	src/first/Makefile	/^LIB=libfirst.a$/;"	m
+LIB	src/second/Makefile	/^LIB=libsecond.a$/;"	m
+LIBPATH	src/first/Makefile	/^LIBPATH=$(TOPDIR)\/lib$/;"	m
+LIBPATH	src/main/Makefile	/^LIBPATH=$(TOPDIR)\/lib$/;"	m
+LIBPATH	src/second/Makefile	/^LIBPATH=$(TOPDIR)\/lib$/;"	m
+TARGET	src/main/Makefile	/^TARGET=main$/;"	m
+TOPDIR	Makefile	/^TOPDIR=.$/;"	m
+TOPDIR	src/Makefile	/^TOPDIR=.\/..$/;"	m
+TOPDIR	src/first/Makefile	/^TOPDIR=.\/..\/..$/;"	m
+TOPDIR	src/main/Makefile	/^TOPDIR=.\/..\/..$/;"	m
+TOPDIR	src/second/Makefile	/^TOPDIR=.\/..\/..$/;"	m
+_KBD_H	inc/first.h	9;"	d
+_KBD_H	inc/second.h	9;"	d
+exclude_dirs	Makefile	/^exclude_dirs= inc  bin  lib$/;"	m
+first	src/first/first.c	/^int first(void)$/;"	f
+main	src/main/main.c	/^int main()$/;"	f
+second	src/second/second.c	/^int second(void)$/;"	f

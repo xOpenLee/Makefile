@@ -1,7 +1,7 @@
 #!/bin/bash 
 TARGET=edit
 COPY_SAMPLE=kbd
-OBJS=("cmd" "display" "insert" "search" "files" "utils")
+OBJS=("first" "second" "cmd" "display" "insert" "search" "files" "utils")
 
 suffix(){
     cp ${COPY_SAMPLE}.$2 $1.$2
