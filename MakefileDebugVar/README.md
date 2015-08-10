@@ -4,7 +4,7 @@
 
 vars.mk
 %:
-    @echo '$*=$($*)'
+	@echo '$*=$($*)'
 d-%:
 	@echo '$*=$($*)'
 	@echo '  origin = $(origin $*)'
